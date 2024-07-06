@@ -20,7 +20,7 @@ This game is being developed as part of a 15-day challenge. The goal is to creat
 
 ### Installation
 1. Clone the repository:git clone https://github.com/yourusername/cyber-blitz.git
-Copy2. Open the project in your preferred IDE.
+2. Open the project in your preferred IDE.
 3. Build and run the project.
 
 ## How to Play

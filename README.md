@@ -37,9 +37,6 @@ This game is being developed as part of a 15-day challenge. The goal is to creat
 ## Contributing
 As this is a time-limited personal project, contributions are not being accepted at this time. However, feel free to fork the project for your own use.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## Acknowledgments
 - Developed with assistance from AI tools
 - Inspired by classic arcade shooters and modern roguelite games

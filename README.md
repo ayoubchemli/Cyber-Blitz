@@ -8,7 +8,7 @@ Cyber Blitz is a top-down shooter game developed in Java using Swing. Set in a f
 - Wave-based enemy encounters
 - Power-ups and special abilities
 - Simple yet engaging pixel art graphics
-- Cyberpunk-themed sound effects and music
+- Cyberpunk-themed sound effects 
 
 ## Development Timeline
 This game is being developed as part of a 15-day challenge. The goal is to create a functional and enjoyable game within this timeframe.
@@ -19,7 +19,7 @@ This game is being developed as part of a 15-day challenge. The goal is to creat
 - An IDE that supports Java (e.g., IntelliJ IDEA, Eclipse)
 
 ### Installation
-1. Clone the repository:git clone https://github.com/yourusername/cyber-blitz.git
+1. Clone the repository:git clone https://github.com/ayoubchemli/cyber-blitz.git
 2. Open the project in your preferred IDE.
 3. Build and run the project.
 

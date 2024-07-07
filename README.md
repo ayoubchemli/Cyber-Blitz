@@ -19,7 +19,7 @@ This game is being developed as part of a 15-day challenge. The goal is to creat
 - An IDE that supports Java (e.g., IntelliJ IDEA, Eclipse)
 
 ### Installation
-1. Clone the repository:git clone https://github.com/ayoubchemli/cyber-blitz.git
+1. Clone the repository:git clone https://github.com/ayoubchemli/cyber-blitz
 2. Open the project in your preferred IDE.
 3. Build and run the project.
 

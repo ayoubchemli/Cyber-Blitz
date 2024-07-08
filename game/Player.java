@@ -1,16 +1,20 @@
 package game;
 
 import java.awt.*;
+import java.util.List;
 
 public class Player extends Entity {
-    private static final double PLAYER_SPEED = 10; // Reduced from 200
+    private static final double PLAYER_SPEED = 10;
     private int health;
     private int score;
+    private long lastShotTime;
+    private static final long SHOT_COOLDOWN = 250; // milliseconds
 
     public Player(double x, double y) {
         super(x, y, 32, 32);
         this.health = 100;
         this.score = 0;
+        this.lastShotTime = 0;
     }
 
     @Override
@@ -75,5 +79,18 @@ public class Player extends Entity {
 
     public void setVelocityY(double vy) {
         this.velocityY = vy;
+    }
+
+    public Projectile shoot(double targetX, double targetY) {
+        long currentTime = System.currentTimeMillis();
+        if (currentTime - lastShotTime >= SHOT_COOLDOWN) {
+            lastShotTime = currentTime;
+            double centerX = x + width / 2;
+            double centerY = y + height / 2;
+            double directionX = targetX - centerX;
+            double directionY = targetY - centerY;
+            return new Projectile(centerX, centerY, directionX, directionY);
+        }
+        return null;
     }
 }

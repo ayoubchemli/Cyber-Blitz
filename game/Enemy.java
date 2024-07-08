@@ -2,8 +2,9 @@ package game;
 
 import java.awt.*;
 
+
 public class Enemy extends Entity {
-    private static final double ENEMY_SPEED = 10; // Reduced from 100
+    private static final double ENEMY_SPEED = 5; // Reduced from 100
 
     public Enemy(double x, double y) {
         super(x, y, 30, 30);
